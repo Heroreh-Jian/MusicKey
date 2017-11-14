@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MusicKey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+ <h1><i class="fa fa-music" aria-hidden="true"></i> <i class="fa fa-music" aria-hidden="true"></i><strong> MusicKey</strong></h1>
+  </a>
+</nav>
+
+ 
+<div id="container"> 
+<div class="jumbotron">
+	<div class="row">
+    <div class="col-5">
+      <img id="image" class="img-responsive pull-left" src="https://www.w3schools.com/w3css/img_lights.jpg">
+ 
+    </div>
+    <div class="col-7">
+     
+ 	<strong><h5 id="title" class="center-block">Welcome to MusicKey</h5></strong>
+ 	<hr>
+ 	
+ 	<p id="content" class="center-block">Click Keys Below to Listen to Music</p>
+    <em><p id="author" class="pull-right"></p></em>
+    
+    </div>
+  </div>
+		
+
+</div>
+
+
+<audio id="music" src="music/La La Land Soundtrack - Main Theme  Medley.mp3" autoplay loop>
+</audio>
+  
+    <ul id="keyboard">
+        <li id="dot" class="dot symbol">`</li>
+        <li id="one" class="symbol">1</li>
+        <li id="two" class="symbol">2</li>
+        <li id="three" class="symbol">3</li>
+        <li id="four" class="symbol">4</li>
+        <li id="five" class="symbol">5</li>
+        <li id="six" class="symbol">6</li>
+        <li id="seven" class="symbol">7</li>
+        <li id="eight" class="symbol">8</li>
+        <li id="nine" class="symbol">9</li>
+        <li id="zero" class="symbol">0</li>
+        <li id="subtract"  class="symbol">-</li>
+        <li id="equal" class="symbol">=</li>
+        <li id="delete" class="delete lastitem">Delete</li>
+        <li id="tab" class="tab">Tab</li>
+        <li id="q" class="letter">Q</li>
+        <li id="w" class="letter">W</li>
+        <li id="e" class="letter">E</li>
+        <li id="r" class="letter">R</li>
+        <li id="t" class="letter">T</li>
+        <li id="y" class="letter">Y</li>
+        <li id="u" class="letter">U</li>
+        <li id="i" class="letter">I</li>
+        <li id="o" class="letter">O</li>
+        <li id="p" class="letter">P</li>
+        <li id="leftbracket" class="symbol">[</li>
+        <li id="rightbracket" class="symbol">]</li>
+        <li id="backslash" class="symbol lastitem">\</li>
+        <li id="caps" class="capslock">Caps Lock</li>
+        <li id="a" class="letter">A</li>
+        <li id="s" class="letter">S</li>
+        <li id="d" class="letter">D</li>
+        <li id="f" class="letter">F</li>
+        <li id="g" class="letter">G</li>
+        <li id="h" class="letter">H</li>
+        <li id="j" class="letter">J</li>
+        <li id="k" class="letter">K</li>
+        <li id="l" class="letter">L</li>
+        <li id="semicolon" class="symbol">;</li>
+        <li id="apostrophe" class="symbol">'</li>
+        <li id="return" class="return lastitem">Return</li>
+        <li id="shift" class="left-shift">Shift <i class="fa fa-arrow-up" aria-hidden="true"></i></li>
+        <li id="z" class="letter">Z</li>
+        <li id="x" class="letter">X</li>
+        <li id="c" class="letter">C</li>
+        <li id="v" class="letter">V</li>
+        <li id="b" class="letter">B</li>
+        <li id="n" class="letter">N</li>
+        <li id="m" class="letter">M</li>
+        <li id="comma" class="symbol">,</li>
+        <li id="period" class="symbol">.</li>
+        <li id="slash" class="symbol">/</li>
+        <li id="shiftright" class="right-shift lastitem">Shift  <i class="fa fa-arrow-up" aria-hidden="true"></i></li>
+        <li id="space" class="space lastitem">&nbsp;</li>
+    </ul>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>s
+ <script type="text/javascript" src="musickey.js"></script>
+</body>
+</html>
